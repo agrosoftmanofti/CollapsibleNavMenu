@@ -1,5 +1,0 @@
-E:\Wraith\VS Projects\ColapsableNavMenu\obj\Debug\net8.0\CollapsibleNavMenu.csproj.AssemblyReference.cache
-E:\Wraith\VS Projects\ColapsableNavMenu\obj\Debug\net8.0\CollapsibleNavMenu.GeneratedMSBuildEditorConfig.editorconfig
-E:\Wraith\VS Projects\ColapsableNavMenu\obj\Debug\net8.0\CollapsibleNavMenu.AssemblyInfoInputs.cache
-E:\Wraith\VS Projects\ColapsableNavMenu\obj\Debug\net8.0\CollapsibleNavMenu.AssemblyInfo.cs
-E:\Wraith\VS Projects\ColapsableNavMenu\obj\Debug\net8.0\CollapsibleNavMenu.csproj.CoreCompileInputs.cache
