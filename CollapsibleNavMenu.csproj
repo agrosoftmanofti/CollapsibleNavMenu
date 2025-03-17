@@ -31,7 +31,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.14" />
-    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
