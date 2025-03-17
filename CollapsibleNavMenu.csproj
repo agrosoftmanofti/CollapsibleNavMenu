@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RazorLangVersion>8.0</RazorLangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Packaging Metadata -->
+    <PackageId>CollapsibleNavMenu</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Evan Knight</Authors>
+    <Company>Other Gordon Solutions</Company>
+    <Description>Responsive, role-based, dynamic, multi-level Blazor navigation menu component library.</Description>
+    <PackageTags>Blazor NavMenu Sidebar RazorComponent RCL</PackageTags>
+    <RepositoryUrl>https://github.com/eodknight23/CollapsibleNavMenu</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    
+	<!-- Packaging Flags (✅ moved here from ItemGroup) -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.14" />
+  </ItemGroup>
+
+</Project>

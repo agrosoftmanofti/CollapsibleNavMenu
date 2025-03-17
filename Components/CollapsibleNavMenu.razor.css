@@ -1,0 +1,125 @@
+/* ----- Core Styles ----- */
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row {
+    height: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+}
+
+.oi {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item ::deep a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+        .nav-item ::deep a.active {
+            background-color: rgba(255, 255, 255, 0.25);
+            color: white;
+        }
+
+        .nav-item ::deep a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+/* ----- Mobile Slide Animation ----- */
+.main-menu,
+.submenu {
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 3.5rem; /* below top-row */
+    left: 0;
+    width: 100%;
+    background-color: #212529;
+    padding: 1rem;
+    min-height: calc(100vh - 3.5rem);
+    z-index: 1000;
+}
+
+    .main-menu.active {
+        transform: translateX(0);
+    }
+
+    .main-menu.hidden {
+        transform: translateX(-100%);
+    }
+
+    .submenu.active {
+        transform: translateX(0);
+    }
+
+    .submenu.hidden {
+        transform: translateX(100%);
+    }
+
+.back-link {
+    color: #ccc;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* ----- Desktop Layout ----- */
+@media (min-width: 768px) {
+    .main-menu,
+    .submenu {
+        position: relative;
+        width: 240px;
+        display: inline-block;
+        transform: none !important;
+        min-height: 100vh;
+        padding-top: 1rem;
+    }
+
+    .main-menu {
+        background-color: #212529;
+        border-right: 1px solid #444;
+    }
+
+    .submenu {
+        background-color: #1a1a1a;
+        border-left: 1px solid #444;
+    }
+
+    .collapse {
+        display: block !important;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+/* ----- Advanced Enhancement Notes -----
+ - In a future enhancement, use JS or Blazor state to toggle 'active' and 'hidden' class dynamically.
+ - Home menu can be styled with .home-menu { position: sticky; top: 0; z-index: 1100; }
+ - Can later extend to nth-level submenus with flexbox side panes or nested stacks.
+---------------------------------------- */

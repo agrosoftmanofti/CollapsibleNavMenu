@@ -1,0 +1,60 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Folsom Industrial Pumps</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass">
+    <nav class="main-menu flex-column">
+        @foreach (var parent in NavLinks)
+        {
+            <div class="nav-item px-3">
+                @if (parent.Children.Any())
+                {
+                    <a class="nav-link expandable" @onclick="() => ExpandMenu(parent)">
+                        @if (!string.IsNullOrEmpty(parent.IconClass))
+                        {
+                            <span class="@parent.IconClass" aria-hidden="true"></span>
+                        }
+                        <span class="nav-title">@parent.Title</span>
+                    </a>
+                }
+                else
+                {
+                    <NavLink class="nav-link" href="@parent.Url" Match="NavLinkMatch.Prefix">
+                        @if (!string.IsNullOrEmpty(parent.IconClass))
+                        {
+                            <span class="@parent.IconClass" aria-hidden="true"></span>
+                        }
+                        <span class="nav-title">@parent.Title</span>
+                    </NavLink>
+                }
+            </div>
+        }
+    </nav>
+
+    @if (ActiveSubMenu != null)
+    {
+        <nav class="submenu flex-column">
+            <div class="nav-item px-3">
+                <a class="nav-link back-link" @onclick="BackToParent">← Back</a>
+            </div>
+
+            @foreach (var child in ActiveSubMenu.Children)
+            {
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="@child.Url" Match="NavLinkMatch.Prefix">
+                        @if (!string.IsNullOrEmpty(child.IconClass))
+                        {
+                            <span class="@child.IconClass" aria-hidden="true"></span>
+                        }
+                        <span class="nav-title">@child.Title</span>
+                    </NavLink>
+                </div>
+            }
+        </nav>
+    }
+</div>
