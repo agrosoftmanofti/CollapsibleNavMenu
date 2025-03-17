@@ -14,6 +14,7 @@
     <Description>Responsive, role-based, dynamic, multi-level Blazor navigation menu component library.</Description>
     <PackageTags>Blazor NavMenu Sidebar RazorComponent RCL</PackageTags>
     <RepositoryUrl>https://github.com/eodknight23/CollapsibleNavMenu</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     
 	<!-- Packaging Flags (✅ moved here from ItemGroup) -->
@@ -30,6 +31,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.14" />
+    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
