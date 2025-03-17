@@ -5,7 +5,7 @@ using CollapsibleNavMenu.Services;
 
 namespace CollapsibleNavMenu.Components
 {
-    public partial class CollapsibleNavMenu : ComponentBase
+    public partial class CollapsibleMenuComponent : ComponentBase
     {
         [Inject] 
         public INavMenuProvider NavProvider { get; set; }

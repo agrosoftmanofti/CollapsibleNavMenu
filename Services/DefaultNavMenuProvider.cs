@@ -2,7 +2,7 @@
 
 namespace CollapsibleNavMenu.Services
 {
-    class DefaultNavMenuProvider : INavMenuProvider
+    public class DefaultNavMenuProvider : INavMenuProvider
     {
         public Task<List<NavLinkItem>> GetNavLinksAsync()
         {

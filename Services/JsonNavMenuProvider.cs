@@ -3,7 +3,7 @@ using System.Net.Http.Json;
 
 namespace CollapsibleNavMenu.Services
 {
-    class JsonNavMenuProvider
+    public class JsonNavMenuProvider : INavMenuProvider
     {
         private readonly HttpClient _http;
 
