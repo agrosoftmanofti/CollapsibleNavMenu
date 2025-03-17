@@ -124,7 +124,7 @@ builder.Services.AddScoped<INavMenuProvider, JsonNavMenuProvider>();
 
 ---
 
-## 🔌 Advanced Customization
+## 🔌 Advanced Customization Road Map
 
 - Create your own provider: implement `INavMenuProvider`
 - Replace hardcoded nav items with CMS/API-driven content
@@ -136,14 +136,14 @@ builder.Services.AddScoped<INavMenuProvider, JsonNavMenuProvider>();
 ## 📜 License
 
 MIT License  
-© [Your Name / Your Company]  
+© [Evan Knight / Other Gordon Solutions]  
 Feel free to use, modify, and distribute with attribution.
 
 ---
 
 ## 🌐 Repository
 
-> [https://github.com/YourOrg/CollapsibleNavMenu](https://github.com/eodknight23/CollapsibleNavMenu)
+> [https://github.com/eodknight23/CollapsibleNavMenu](https://github.com/eodknight23/CollapsibleNavMenu)
 
 ---
 
@@ -156,5 +156,5 @@ Pull requests and issue reports are welcome! Please follow standard Blazor compo
 ## 📬 Contact
 
 For questions, support, or integration guidance, contact:  
-📧 `your.name@yourcompany.com`
+📧 `eodknight23@gmail.com`
 
