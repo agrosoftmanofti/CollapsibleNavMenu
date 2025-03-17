@@ -143,7 +143,7 @@ Feel free to use, modify, and distribute with attribution.
 
 ## 🌐 Repository
 
-> [https://github.com/YourOrg/CollapsibleNavMenu](https://github.com/YourOrg/CollapsibleNavMenu)
+> [https://github.com/YourOrg/CollapsibleNavMenu](https://github.com/eodknight23/CollapsibleNavMenu)
 
 ---
 
