@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <RazorLangVersion>8.0</RazorLangVersion>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+  <TargetFramework>net9.0</TargetFramework>
+  <RazorLangVersion>9.0</RazorLangVersion>
+  <ImplicitUsings>enable</ImplicitUsings>
+  <Nullable>enable</Nullable>
+  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 
     <!-- Packaging Metadata -->
     <PackageId>CollapsibleNavMenu</PackageId>
@@ -29,9 +30,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.14" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.14" />
-    <None Include="README.md" Pack="true" PackagePath="\"/>
+  <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="9.0.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0" />
+  <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
