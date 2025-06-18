@@ -116,8 +116,8 @@ builder.Services.AddScoped<INavMenuProvider, JsonNavMenuProvider>();
 
 ## 🎮 Demo Application
 
-A sample Blazor WebAssembly project is included in the `ExampleApp` folder. This
-app references the library project and shows the `CollapsibleMenuComponent` in
+A sample Blazor Server project is included in the `ExampleApp` folder. This app
+references the library project and shows the `CollapsibleMenuComponent` in
 action. After opening the solution, set `ExampleApp` as the startup project and
 run the application to explore the navigation menu.
 
