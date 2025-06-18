@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Home",
+    "url": "/",
+    "iconClass": "oi oi-home",
+    "roles": [],
+    "children": [
+      {
+        "title": "Sales",
+        "url": "/orders/sales",
+        "iconClass": "oi oi-dollarsign"
+      },
+      {
+        "title": "Service",
+        "url": "/orders/service",
+        "iconClass": "oi oi-wrench"
+      }
+    ]
+  },
+  {
+    "title": "Dashboard",
+    "url": "/dashboard",
+    "iconClass": "oi oi-dashboard",
+    "roles": [ "Admin" ],
+    "children": []
+  },
+  {
+    "title": "Settings",
+    "url": "/settings",
+    "iconClass": "oi oi-cog",
+    "roles": [ "Admin", "User" ],
+    "children": []
+  }
+]
