@@ -1,3 +1,5 @@
+using System;
+using System.Net.Http;
 using CollapsibleNavMenu.Services;
 
 var builder = WebApplication.CreateBuilder(args);

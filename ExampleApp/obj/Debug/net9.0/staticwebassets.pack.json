@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/lucas/Repos/Experiments/CollapsibleNavMenu/ExampleApp/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/lucas/Repos/Experiments/CollapsibleNavMenu/ExampleApp/obj/Debug/net9.0/scopedcss/bundle/ExampleApp.styles.css",
+      "PackagePath": "staticwebassets/ExampleApp.styles.css"
+    },
+    {
+      "Id": "/Users/lucas/Repos/Experiments/CollapsibleNavMenu/ExampleApp/wwwroot/config/navlinks.json",
+      "PackagePath": "staticwebassets/config/navlinks.json"
+    },
+    {
+      "Id": "/Users/lucas/Repos/Experiments/CollapsibleNavMenu/ExampleApp/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.ExampleApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.ExampleApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.ExampleApp.props",
+      "PackagePath": "build\\ExampleApp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.ExampleApp.props",
+      "PackagePath": "buildMultiTargeting\\ExampleApp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.ExampleApp.props",
+      "PackagePath": "buildTransitive\\ExampleApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
